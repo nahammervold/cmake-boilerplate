@@ -1,6 +1,8 @@
 #ifndef FIZZBUZZ_H
 #define FIZZBUZZ_H
 
-int fizzbuzz(int);
+#include <string>
+
+const std::string fizzbuzz(const int);
 
 #endif // FIZZBUZZ_H
